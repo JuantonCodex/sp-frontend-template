@@ -1,7 +1,7 @@
 {
-  "name": "safetypay-italia",
+  "name": "safetypay-template",
   "version": "1.0.0",
-  "description": "Front-End para pasarela de pago SafetyPay Italia",
+  "description": "Front-End para SafetyPay",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/jcahuana/safetypay-italia.git"
+    "url": "git+ssh://git@github.com:jcahuana/sp-frontend-template.git"
   },
   "keywords": [
     "safetypay"
@@ -17,11 +17,11 @@
   "author": "Juan Cahuana",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/safetypay/safetypay-italia/issues"
+    "url": "https://github.com/jcahuana/sp-frontend-template/issues"
   },
-  "homepage": "https://gitlab.com/safetypay/safetypay-italia#README",
+  "homepage": "https://github.com/jcahuana/sp-frontend-template#README",
   "frontend": {
-    "name": "Safetypay Italia",
+    "name": "Safetypay Template",
     "stylesheets": "src/css",
     "javascripts": "src/js"
   },
