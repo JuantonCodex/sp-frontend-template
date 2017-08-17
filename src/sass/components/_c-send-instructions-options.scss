@@ -1,0 +1,266 @@
+/*---------------------------------------------------------------------------*
+ * c-SendInstructionsOptions
+----------------------------------------------------------------------------*/
+.c-SendInstructionsOptions {
+  &, & * { box-sizing: border-box; }
+
+  @media print {
+    display: none;
+  }
+  &-guia {
+    font-size: 12px;
+    color: $color-charcoal-gray;
+    margin-bottom: 10px;
+    @include breakpoint(phablet_small) {
+      margin-bottom: 0;
+      padding-right: 10px;
+      padding-top: 14px;
+      float: left;
+    }
+  }
+  &-content {
+    &:after {
+      content: ' ';
+      font-size: 0;
+      height: 0;
+      clear: both;
+      display: block;
+    }
+  }
+
+  // Ícono de mensaje enviado para el input de celular visible
+  .BoxIcon {
+    display: none;
+    right: 0;
+    top: 0;
+    position: absolute;
+    height: 35px;
+    box-sizing: border-box;
+    padding-top: 2px;
+    .icon {
+      display: inline-block;
+    }
+    .icon--sendMessage {
+      background: $color-white url(../img/sprite-icons.png) -190px -150px no-repeat;
+      height: 31px;
+      width: 31px;
+    }
+  }
+
+  // Submit button and text input container
+  .BoxInput {
+    background-color: $color-white;
+    border-radius: 6px;
+    border: 1px solid $color-blue-light-3;
+    float: left;
+    margin-right: 5px;
+    padding: 0;
+    position: relative;
+    &:hover {
+      border: 1px solid $color-blue-safetypay;
+    }
+
+    // Submitbutton container
+    .BoxButton {
+      width: 45px;
+      height: 40px;
+      float: left;
+    }
+
+    // Submit button
+    .SubmitButton {
+      background-color: $color-white;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      height: 40px;
+      outline: none;
+      overflow: hidden;
+      padding: 0;
+      position: relative;
+      text-align: left;
+      width: 45px;
+      &:focus, &:hover {
+        outline: 0;
+      }
+      &:after {
+        background: transparent url("../img/sprite-icons.png") 0 0 no-repeat;
+        background-size: 190px 100px;
+        display: block;
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        left: 0;
+        margin: auto;
+      }
+      &.is-disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+        &:hover {
+
+        }
+      }
+
+      &--telephone {
+        &:after {
+          background-position: 0 0;
+          height: 26px;
+          width: 13px;
+        }
+        &.is-displayed:hover {
+          background-color: $color-blue-safetypay;
+          &:after {
+            background-position: 0 -26px;
+          }
+        }
+        &.is-sent {
+          background-color: $color-blue-safetypay;
+          &:after {
+            width: 23px;
+            background-position: 0 -72.5px;
+          }
+        }
+      }
+      // Botón para correo
+      &--email {
+        &:after {
+          background-position: -16px 0;
+          height: 15.5px;
+          width: 20px;
+        }
+        &.is-displayed:hover {
+          background-color: $color-orange-base;
+          &:after {
+            background-position: -16px -26px;
+          }
+        }
+        &.is-sent {
+          background-color: $color-orange-base;
+          &:after {
+            height: 19px;
+            width: 28px;
+            background-position: -26px -72.5px;
+          }
+        }
+      }
+      // Botón para impresión
+      &--print {
+        &:after {
+          height: 22px;
+          width: 22px;
+          background-position: -38px 0;
+        }
+      }
+      // Botón para impresión
+      &--location {
+        display: block;
+        &:after {
+          height: 26px;
+          width: 19px;
+          background-position: -125px -48px;
+        }
+      }
+    }
+  }
+
+  // --------------------------------------------------------------------------*
+  // Cajas de textos
+  // --------------------------------------------------------------------------*
+  .InputText {
+    background: $color-white;
+    display: none;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    float: left;
+    height: 40px;
+    line-height: 30px;
+    padding: 5px ;
+    width: 100px;
+    outline: none;
+    &.is-visible {
+      display: block;
+    }
+    &--telephone {
+      letter-spacing: 0.65px;
+    }
+    // Campo de texto de celular para el tab de pago en efectivo
+    &--visibleTelephone {
+      border: 1px solid $color-blue-light-1;
+      background-color: $color-white;
+      border-radius: 5px;
+      display: block;
+      width: 100%;
+      height: 35px;
+      box-sizing: border-box;
+      &:focus {
+        border: 1px solid $color-blue-light-1;
+      }
+    }
+  }
+
+
+  // --------------------------------------------------------------------------*
+  // Mensajes de error
+  // --------------------------------------------------------------------------*
+  label.error {
+    background-color: $color-white;
+    border-radius: 5px;
+    border: 1px solid $color-red-error;
+    box-sizing: border-box;
+    color: $color-red-error;
+    font-weight: $w_semibold;
+    font-size: 12px;
+    height: 27px;
+    left: 50%;
+    line-height: 25px;
+    margin-left: -80px;
+    position: absolute;
+    text-align: center;
+    top: -39px;
+    width: 160px;
+
+    &:before {
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 4px 4px 0 4px;
+      border-color: $color-white transparent transparent transparent;
+      margin-left: -4px;
+      left: 50%;
+      bottom: -4px;
+      position: absolute;
+      z-index: 100;
+    }
+
+    &:after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6px 5px 0 5px;
+      border-color: $color-red-error transparent transparent transparent;
+      margin-left: -5px;
+      left: 50%;
+      bottom: -6px;
+      position: absolute;
+    }
+
+    // --------------------------------------------------------------------------*
+    // Mensaje de error para el campo visible
+    // --------------------------------------------------------------------------*
+    &--sizefull {
+      margin-left: 0;
+      left: 0;
+      width: 100%;
+    }
+  }
+}
+/*---------------------------------------------------------------------------*
+ * Endof: c-SendInstructionsOptions
+----------------------------------------------------------------------------*/

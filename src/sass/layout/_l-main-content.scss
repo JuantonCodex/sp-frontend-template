@@ -1,0 +1,90 @@
+/*---------------------------------------------------------------------------*
+ * Component: MainContent
+----------------------------------------------------------------------------*/
+.MainContent {
+  padding: 10px 15px 0 15px;
+  @include breakpoint(phablet) {
+    padding-left: 38px;
+  }
+  &__header {
+  }
+  &__content {
+    position: relative;
+  }
+  &__footer {
+    padding-bottom: 10px;
+    &:after {
+      display: block;
+      content: '';
+      clear: both;
+    }
+    &__cell-3 {
+      text-align: center;
+      padding-bottom: 10px;
+      @include breakpoint(phablet){
+        float: left;
+        width: 33.3333%;
+        padding-bottom: 0;
+        &:nth-child(1){
+          text-align: left;
+        }
+        &:nth-child(3){
+          text-align: right;
+        }
+      }
+    }
+
+    &__instructions {
+      @include breakpoint(phablet_small){
+        float: left;
+        width: 60%;
+        padding-top: 0;
+      }
+      @include breakpoint(tablet){
+        width: 55%;
+      }
+    }
+    &__info {
+
+      // Phablet
+      @include breakpoint(phablet_small){
+        float: left;
+        width: 40%;
+        // height: 65px;
+        // line-height: 65px;
+        vertical-align: middle;
+      }
+      @include breakpoint(tablet){
+        height: 40px;
+        line-height: 40px;
+        width: 45%;
+      }
+
+      &__cell {
+        padding-top: 10px;
+        width: 100%;
+        text-align: center;
+        @include breakpoint(phablet_small){
+          float: left;
+          width: 50%;
+          &:last-child {
+            text-align: right;
+            float: right;
+          }
+        }
+        @include breakpoint(tablet){
+          padding-top: 0;
+          &:first-child {
+            width: 62%;
+          }
+          &:last-child {
+            width: 38%;
+          }
+        }
+      }
+    }
+  }
+}
+/*---------------------------------------------------------------------------*
+* Endof Component: MainContent
+----------------------------------------------------------------------------*/

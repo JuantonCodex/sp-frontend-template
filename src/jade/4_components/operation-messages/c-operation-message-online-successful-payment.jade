@@ -1,0 +1,20 @@
+.c-OperationMessage.c-OperationMessage--cashPayment
+  .c-OperationMessage__content
+    .c-OperationMessage__innerContent
+      .c-OperationMessage__imageBox
+        img.c-OperationMessage__image(src="img/safetypay-small-logo.png", alt="Safetypay")
+      .c-OperationMessage__details
+        .c-OperationMessage__title Obrigado!
+        .c-OperationMessage__text
+          p A transação foi pago com sucesso através de <span><img src="img/safetypay-slim-logo.png" alt="Safetypay"/></span>
+        .c-OperationMessage__paymentSummary
+          .c-OperationMessage__paymentItem Comércio: <span class="h-bold">Peruvian Pass</span>
+          .c-OperationMessage__paymentItem Reserva: <span class="h-bold">XSADA - 465464</span>
+          .c-OperationMessage__paymentItem Valor: <span class="h-bold">3.100,00 €</span>
+          
+        //- CallToAction Button
+        - var text_button = 'Comprar novamente'
+        include ./../c-call-to-action-button.jade
+  
+    
+    

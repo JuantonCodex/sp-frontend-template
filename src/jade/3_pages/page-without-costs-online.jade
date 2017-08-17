@@ -1,0 +1,18 @@
+extends ../2_layout/base.jade
+
+block _css-files_
+  link(rel='stylesheet', href='css/app.css')
+  
+block _main_nav_
+  - var main_item_flag = 'online'
+  - var online_link = 'sin-costos-online.html'
+  - var cash_link = 'sin-costos-cash.html'
+  include ./../4_components/c-main-nav.jade
+    
+block _main-content_
+
+  //- Esta variable indica que se usará el ticket que no incluye costos
+  - var without_costs = true
+  include ../4_components/main-content/c-main-content-online-payment.jade
+  
+block _js-files_

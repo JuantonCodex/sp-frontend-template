@@ -1,0 +1,27 @@
+block _footer_vars_
+
+//Start: l-Footer
+.l-Footer
+  .l-Footer__content
+  
+    if footer_content_flag == 'return'
+      .l-Footer__cell-3
+        include ./../4_components/c-return-to-test.jade
+      .l-Footer__cell-3
+      .l-Footer__cell-3
+      
+    else if footer_content_flag == 'empty'
+    
+    //- Default elements
+    else
+      .l-Footer__cell-3
+        include ./../4_components/c-return-to-test.jade
+      .l-Footer__cell-3
+        include ./../4_components/c-help-info.jade
+      .l-Footer__cell-3
+        
+        //- Agregamos la variable 'merchant_logo' como true para mostrar el logo de MyBank
+        - var merchant_logo = true
+        include ./../4_components/c-logo-safetypay.jade
+        
+//End: l-Footer

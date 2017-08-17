@@ -1,0 +1,4 @@
+# 4 space indentation
+[*]
+indent_style = tabs
+indent_size = 2

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SafetyPay Italia</title>
+    <meta name="description" content="#{site_description}">
+    <meta name="author" content="#{site_author}">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="l-OuterContainer">
+      <!--CustomerCompany-->
+      <div class="c-CustomerCompany">
+        <div class="c-CustomerCompany__content">
+          <div class="c-CustomerCompany__text" style="display:none;"><span>Facebook</span></div>
+          <div class="c-CustomerCompany__logo"><img src="img/header-logo.png" alt="Merchant Name"></div>
+        </div>
+      </div>
+      <!--Start: l-Header-->
+      <header class="l-Header">
+        <div class="l-Header__content">
+          <nav class="MainNav">
+            <div class="MainNav__list"><a class="MainNav__item is-active" href="" data-nom="cash-payment"><span>Internet Banking</span></a></div>
+          </nav>
+        </div>
+      </header>
+      <!--Start: MainContent [Online Payment]-->
+      <section class="MainContent" data-nom="online-payment">
+        <div class="MainContent__header">
+          <!--PlacesOfPayment - Online Payment-->
+          <div class="c-PlacesOfPayment c-PlacesOfPayment--onlinePayment is-visible" data-nom="general">
+            <div class="c-PlacesOfPayment-slideWrapper">
+              <div class="c-PlacesOfPayment-listButtons"></div>
+              <div class="c-PlacesOfPayment-list">
+                <div class="c-PlacesOfPayment-item">
+                  <div class="link-wrapper"><a class="link is-selected" href="#" data-nom-entidad="multibanco"><img src="img/shop-places/logo-mybank.png" alt="Mybank"></a></div>
+                </div>
+              </div>
+            </div>
+            <div class="c-PlacesOfPayment__myBankSearch">
+              <div class="c-MyBankSearch">
+                <div class="c-MyBankSearch__content">
+                  <div class="c-MyBankSearch__formContainer">
+                    <form class="c-MyBankSearch__form" id="mybank-search" action="#" name="">
+                      <input class="c-MyBankSearch__searchInput" type="text" placeholder="Inserisca il nome della sua banca.">
+                      <input class="c-MyBankSearch__submitButton" type="submit" value="">
+                    </form>
+                  </div>
+                  <div class="c-MyBankSearch__resultContainer">
+                    <ul class="c-MyBankSearch__resultList"></ul>
+                  </div>
+                </div>
+                <div class="c-MyBankSearch__alternativeMessage"><span>Prosegua con il suo ordine. Troverá il nome della sua banca premendo a “Vai a Internet".     </span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="MainContent__content">
+          <!--Start: c-PaymentTicketGroup [Online Payment]-->
+          <div class="c-PaymentTicketGroup" data-nom="online-payment">
+            <!--Start: c-PaymentTicket [MyBank]-->
+            <div class="c-PaymentTicket is-visible" data-nom-entidad="mybank">
+              <div class="c-PaymentTicket__content c-PaymentTicket__content--twoColumns">
+                <div class="c-PaymentTicket__summary">
+                  <div class="c-PaymentTicket__summary__header"><span>Transferisce il valore esatto</span></div>
+                  <div class="c-PaymentTicket__summary__details">
+                    <div class="block"><span class="label">Subtotale</span><span class="value">3.100,00 €</span></div>
+                    <div class="block"><span class="label">L costi operativi</span><span class="value">100,00 €</span></div>
+                    <div class="block"><span class="label label--total"><span class="h-color-blue">Totale esatto</span></span><span class="value value--total"><span class="h-semi-bold h-color-blue">3.200,00 €</span></span></div>
+                  </div>
+                </div>
+                <div class="c-PaymentTicket__expiration">
+                  <div class="c-PaymentTicket__expiration__details h-a-center">
+                    <div class="block block--timerTitle">Ordine scade:</div>
+                    <div class="block block--timer">
+                      <!--Timer-->
+                      <div class="timer">
+                        <div class="timer__block timer__block--clock"></div>
+                        <div class="timer__block timer__block--hours">183h</div>
+                        <div class="timer__block timer__block--divisor">:</div>
+                        <div class="timer__block timer__block--minutes">58m</div>
+                        <div class="timer__block timer__block--divisor">:</div>
+                        <div class="timer__block timer__block--seconds">24s</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="c-PaymentTicket__footer">
+                <div class="c-PaymentTicket__footer__info"></div>
+                <div class="c-PaymentTicket__footer__terms"><span><input type="checkbox" checked="checked"> </span><span>Acceito i <a href="#">Termini e condizioni</a> e <a href="#">Tutela della privacy.</a></span></div>
+              </div>
+            </div>
+            <!--End: c-PaymentTicket-->
+          </div>
+          <!--End: c-PaymentTicketGroup-->
+          <!--GoOnlineBanking-->
+          <div class="c-GoOnlineBanking">
+            <div class="c-GoOnlineBanking__content">
+              <button class="c-CallToActionButton"><span class="c-CallToActionButton__icon"></span><span class="c-CallToActionButton__text">Vai a Internet Banking</span></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--End: MainContent-->
+      <!--Start: l-Footer-->
+      <div class="l-Footer">
+        <div class="l-Footer__content">
+          <div class="l-Footer__cell-3">
+            <div class="ReturnToTest"><a class="ReturnToTest__link" href="#">Retorne a M_TEST</a></div>
+          </div>
+          <div class="l-Footer__cell-3">
+            <div class="HelpInfo">
+              <div class="HelpInfo__email"><span>Aiuto: <span class="h-color-blue">support@safetypay.com</span></span></div>
+            </div>
+          </div>
+          <div class="l-Footer__cell-3">
+            <div class="c-LogoSafetypay"><img class="c-LogoSafetypay__img c-LogoSafetypay__img--merchantLogo" src="img/footer-logo-mybank.png" alt="My Bank"><img class="c-LogoSafetypay__img" src="img/logo-safetypay-small.png" alt="Vía SafetyPay">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End: l-Footer-->
+    </div>
+    <!--Vendor files-->
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/jquery.mask.min.js"></script>
+    <script src="js/vendor/iscroll.js"></script>
+    <script src="js/vendor/underscore.min.js"></script>
+    <script src="js/vendor/slick.min.js"></script>
+    <!--Scripts-->
+    <script src="js/components/mybank-search.js"></script>
+    <script src="js/components/places-of-payment.js"></script>
+    <script src="js/components/payment-ticket.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+//PaymentPaymentTicket - Multibanco
+.c-PaymentTicket.two-columns.is-visible(data-nom-entidad="multibanco")
+  //- .c-PaymentTicket__title Título
+  //- .c-PaymentTicket__header 
+    .c-PaymentTicket__header__content Permite realizar pagos de lunes a domingo las 24 horas del día.
+  .c-PaymentTicket__content
+  
+    //Summary
+    .c-PaymentTicket__summary
+      .c-PaymentTicket__summary__header
+        span Resumo de pagamento
+      .c-PaymentTicket__summary__details
+        .row
+          span.label Subtotal
+          span.value 990 €
+        .row
+          span.label Custos operacionais
+          span.value 5 €
+        .row
+          span.label.total Total exato
+          span.value.total 995 €
+    //Expiration
+    .c-PaymentTicket__expiration
+      .c-PaymentTicket__expiration__content
+        .c-PaymentTicket__expiration__content__inner
+          .timer-message Pedido expira em:
+          .timer-clock
+            i.icon-clock
+            span#timer_hor_1 183h
+            span.divisor :
+            span#timer_min_1(data-minutos='15') 58m
+            span.divisor :
+            span#timer_seg_1 24s
+        //- .timer-message.timer-message--bottom Para fazer seu pagamento.
+  .c-PaymentTicket__footer
+    .c-PaymentTicket__footer__info
+    .c-PaymentTicket__footer__terms
+      span <input type="checkbox" checked="checked"> 
+      span Eu aceito os <a href="#">Termos e Condições</a> e <a href="#">Politicas de Privacidade.</a>

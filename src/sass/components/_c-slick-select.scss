@@ -1,0 +1,141 @@
+/*---------------------------------------------------------------------------*
+ * c-SlickSelect
+----------------------------------------------------------------------------*/
+// Variables
+$color-base : $color-blue-safetypay;
+
+.dd-select {
+  background: $color-white !important;
+  border: solid 1px $color-base;
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 30px;
+  padding-left: 11px;
+  position: relative;
+}
+.dd-desc {
+  color: #aaa;
+  display: block;
+  overflow: hidden;
+  font-weight: normal;
+  line-height: 1.4em;
+}
+.dd-selected {
+  font-size: 11px;
+  overflow: hidden;
+  display: block;
+  padding: 0;
+}
+.dd-selected label.dd-selected-text {
+  color: #0081CA;
+  cursor: pointer;
+  float: left;
+  line-height: 28px;
+}
+.dd-pointer {
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -3px;
+}
+.dd-pointer-down {
+  border: solid 5px transparent;
+  border-top: solid 5px $color-base;
+}
+.dd-pointer-up {
+  border: solid 5px transparent !important;
+  border-bottom: solid 5px $color-base !important;
+  margin-top: -8px;
+}
+.dd-options {
+  background: $color-white;
+  border-top: none;
+  border-left: solid 1px $color-base;
+  border-right: solid 1px $color-base;
+  border-bottom: solid 1px $color-base;
+  box-sizing: border-box;
+  display: none;
+  list-style: none;
+  margin: 0;
+  margin-top: -3px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  z-index: 2000;
+  min-height: 50px;
+}
+.dd-options .iScrollVerticalScrollbar,
+.dd-options .iScrollLoneScrollbar  {
+  width: 11px !important;
+}
+.dd-options .iScrollIndicator {
+  background: $color-base !important;
+}
+.dd-option {
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  border-bottom: solid 1px #ddd;
+  color: #333;
+  cursor: pointer;
+  display: block;
+  overflow: hidden;
+  padding: 7px 10px;
+  text-decoration: none;
+  box-sizing: border-box;
+  height: 30px;
+}
+.dd-options .dd-option {
+  font-size: 11px;
+  color: #0081CA;
+}
+.dd-options > li:last-child > .dd-option {
+  font-size: 11px;
+  border-bottom: none;
+}
+.dd-option:hover {
+  background: #f3f3f3;
+  color: #000;
+}
+.dd-option .dd-option-text {
+  cursor: pointer;
+  line-height: 16px !important;
+}
+.dd-selected-description-truncated {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dd-option-selected {
+  background: $color-white-smoke;
+}
+.dd-option-image, .dd-selected-image {
+  background: transparent url(../images/sprite_banderas.png) 0 0 no-repeat;
+  float: left;
+  height: 15px;
+  margin-top: 6px;
+  margin-right: 5px;
+  max-width: 64px;
+  vertical-align: middle;
+  width: 22px;
+}
+.dd-option-image {
+  background: transparent url(../images/sprite_banderas.png) 0 0 no-repeat;
+  height: 15px;
+  width: 22px;
+  margin-top: 0;
+}
+.dd-image-right {
+  float: right;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+.dd-container {
+  position: relative;
+}
+/*---------------------------------------------------------------------------*
+ * Endof: c-SlickSelect
+----------------------------------------------------------------------------*/

@@ -1,0 +1,25 @@
+/*---------------------------------------------------------------------------*
+ * c-InformationMessage
+----------------------------------------------------------------------------*/
+.c-InformationMessage {
+  &, * {
+    box-sizing: border-box;
+    color: $color-charcoal-gray ;
+    font-size: 13px;
+  }
+
+  &__content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  &__guide {
+    display: block;
+    margin-bottom: 10px;
+  }
+  &__item {
+    display: block;
+  }
+}
+/*---------------------------------------------------------------------------*
+ * Endof: c-InformationMessage
+----------------------------------------------------------------------------*/

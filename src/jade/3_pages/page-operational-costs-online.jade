@@ -1,0 +1,17 @@
+extends ../2_layout/base.jade
+
+block _css-files_
+  link(rel='stylesheet', href='css/app.css')
+
+block _main_nav_
+  - var main_item_flag = 'online'
+  - var online_link = 'operational-costs-online.html'
+  - var cash_link = ''
+  include ./../4_components/c-main-nav.jade
+  
+block _main-content_
+  include ../4_components/main-content/c-main-content-online-payment.jade
+  
+block _footer_vars_
+  
+block _js-files_

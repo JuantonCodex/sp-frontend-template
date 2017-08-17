@@ -1,0 +1,11 @@
+//PlacesOfPayment - Cash Payment
+.c-PlacesOfPayment.c-PlacesOfPayment--cashPayment.is-visible(data-nom="general")
+  //- h1.c-PlacesOfPayment-title Selecciona tu banco
+  .c-PlacesOfPayment-slideWrapper
+    .c-PlacesOfPayment-listButtons
+    .c-PlacesOfPayment-list
+      each val in [1]
+        .c-PlacesOfPayment-item
+          .link-wrapper
+            a.link.is-selected(href="#", data-nom-entidad="pagaqui")
+              img(src="img/shop-places/logo-loterias.png", alt="Loterias")

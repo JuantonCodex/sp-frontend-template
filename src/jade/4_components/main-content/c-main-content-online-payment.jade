@@ -1,0 +1,29 @@
+//Start: MainContent [Online Payment]
+section.MainContent(data-nom="online-payment")
+  
+  .MainContent__header
+    include ../places-of-payment/online/c-places-of-payment-online.jade
+
+  .MainContent__content
+    
+    //- Si esta variable es 'true', mostramos el mensaje de información en vez del ticket de pago
+    if information_message == true
+      include ../c-information-message.jade
+    
+    else 
+      //- Si la variable 'information_message' no es true, entonces se muestra un ticket de pago
+    
+      //Start: c-PaymentTicketGroup [Online Payment]
+      .c-PaymentTicketGroup(data-nom="online-payment")
+      
+        //- Esta variable muestra u oculta la versión de un ticket sin costos operativos
+        if without_costs == true
+          include ../payment-tickets/online/general/c-payment-ticket-mybank-without-costs.jade
+      
+        //- Si la variable 'no_costs' es diferente de true, se muestra el ticket con el cargo extra
+        else
+          include ../payment-tickets/online/general/c-payment-ticket-mybank.jade
+      //End: c-PaymentTicketGroup
+      
+    include ../c-go-online-banking.jade  
+//End: MainContent

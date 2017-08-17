@@ -1,0 +1,53 @@
+// Breakpoints Min-Width
+@mixin breakpoint($point) {
+  @if $point == desktop {
+    @media (min-width: $w_desktop) { @content ; }
+  }
+  @else if $point == tablet {
+    @media (min-width: $w_tablet) { @content ; }
+  }
+  @else if $point == phablet {
+    @media (min-width: $w_phablet)  { @content ; }
+  }
+  @else if $point == phablet_small {
+    @media (min-width: $w_phablet_small)  { @content ; }
+  }
+  @else if $point == mobile {
+    @media (min-width: $w_mobile)  { @content ; }
+  }
+  @else if $point == mobile_small {
+    @media (min-width: $w_mobile_small)  { @content ; }
+  }
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    @content;
+  }
+  &::-moz-placeholder { /* Firefox 19+ */
+    @content;
+  }
+  &:-ms-input-placeholder { /* IE 10+ */
+    @content;
+  }
+  &:-moz-placeholder { /* Firefox 18- */
+    @content;
+  }
+}
+
+// Breakpoints Max-Width
+@mixin mq($point) {
+  @if $point == desktop {
+    @media (max-width: $w_desktop) { @content ; }
+  }
+  @else if $point == tablet {
+    @media (max-width: $w_tablet) { @content ; }
+  }
+  @else if $point == phablet {
+    @media (max-width: $w_phablet)  { @content ; }
+  }
+  @else if $point == mobile {
+    @media (max-width: $w_mobile)  { @content ; }
+
+  }
+}

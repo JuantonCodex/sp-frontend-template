@@ -1,0 +1,474 @@
+/*---------------------------------------------------------------------------*
+ * c-PaymentTicket
+----------------------------------------------------------------------------*/
+// Colors
+$c_fondo_barras   : $color-blue-light-1;
+$c_fondo_total    : $color-white-smoke;
+$c_fondo_tiempo   : $color-lavender-violet;
+
+// Local colors
+$local-color-bg-summary : $color-white-smoke;
+$local-color-bg-expiration : $color-lavender-violet;
+
+.c-PaymentTicket {
+  &, & *  { box-sizing: border-box; }
+  display: none;
+  clear: both;
+  float: none;
+  margin: 0;
+  overflow: hidden;
+  margin-bottom: 5px;
+
+  &__title {
+    color: $color-blue-safetypay;
+    font-weight: normal;
+    font-size: 15px;
+    margin-bottom: 10px
+  }
+
+  // --------------------------------------------------------------------------*
+  // PaymentTicket -> Header
+  // --------------------------------------------------------------------------*
+  &__header {
+    color: $color-charcoal-gray;
+    font-size: 13.4px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+    &__content {
+      &__box {
+        &:last-child {
+          padding-top: 10px;
+        }
+        &:last-child > div {
+          margin: 0 auto;
+          float: none;
+        }
+        @include breakpoint(phablet_small) {
+          float: left;
+          &:first-child {
+            width: 55%;
+          }
+          &:last-child {
+            padding-left: 10px;
+            width: 45%;
+          }
+          &:last-child > div {
+            float: right;
+          }
+        }
+        @include breakpoint(tablet) {
+          &:first-child {
+            width: 65%;
+          }
+          &:last-child {
+            padding-top: 0;
+            width: 35%;
+          }
+        }
+      }
+    }
+  }
+
+  // --------------------------------------------------------------------------*
+  // PaymentTicket -> Content
+  // --------------------------------------------------------------------------*
+  &__content {
+    display: block;
+    width: 100%;
+    @include breakpoint(phablet_small) {
+      display: table;
+      height: 1px; //CSS Hack to use min-height in tables
+      min-height: 110px;
+    }
+  }
+
+  // --------------------------------------------------------------------------*
+  // PaymentTicket -> Code
+  // --------------------------------------------------------------------------*
+  &__code {
+    background-color: $color-orange-base;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    overflow: hidden;
+    padding: 15px 10px 10px 10px;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+    display: table;
+    border-bottom: 1px solid $color-white;
+
+    @include breakpoint(phablet_small) {
+      border-bottom-left-radius: 5px;
+      border-top-right-radius: 0;
+      display: table-cell;
+      padding: 10px 20px;
+      vertical-align: middle;
+      width: 30%;
+      border-right: 1px solid $color-white;
+      border-bottom: none;
+    }
+
+    span {
+      color: $color-charcoal-gray;
+      display: block;
+    }
+    .row {
+      width: 100%;
+      display: block;
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 0;
+      &:first-child {
+        padding-bottom: 8px;
+        margin-bottom: 8px;
+        border-bottom: 1px solid $color-charcoal-gray;
+      }
+    }
+    .title-value {
+      font-size: 13px;
+      padding-bottom: 5px;
+    }
+    .value {
+      font-size: 22px;
+      font-weight: $w_semibold;
+      &.large {
+        font-size: 26px;
+      }
+    }
+    .minor-text {
+      padding-top: 5px;
+      font-size: 12px;
+    }
+
+    // &.nopadding {
+    //   padding: 0;
+    //
+    //   .row {
+    //     padding: 0;
+    //     &--agencia {
+    //       background-color: $color-orange-base;
+    //       padding-bottom: 10px;
+    //       .title-value {
+    //         font-size: 13px;
+    //         padding-top: 10px;
+    //         padding-bottom: 5px;
+    //       }
+    //       .value {
+    //         font-size: 22px;
+    //         font-weight: $w_semibold;
+    //       }
+    //       .minor-text {
+    //         padding-top: 5px;
+    //         font-size: 12px;
+    //       }
+    //     }
+    //     &--cuentacorriente {
+    //       background-color: $color-orange-base;
+    //       border-radius: 0;
+    //       min-height: 65px;
+    //       padding: 10px 0;
+    //       .title-value {
+    //         font-size: 13px;
+    //         padding-bottom: 8px;
+    //       }
+    //       .barcode {
+    //         padding: 0 20px;
+    //         img {
+    //           width: 100%;
+    //           max-width: 210px;
+    //         }
+    //       }
+    //       .value {
+    //         padding-top: 5px;
+    //         font-size: 15.5px;
+    //         font-weight: $w_semibold;
+    //         &.large {
+    //           font-size: 26px;
+    //         }
+    //       }
+    //     }
+    //     &--codigo {
+    //       background-color: $color-orange-base;
+    //       border-radius: 0;
+    //       min-height: 65px;
+    //       padding: 10px 0;
+    //       .title-value {
+    //         font-size: 13px;
+    //         padding-bottom: 5px;
+    //       }
+    //       .value {
+    //         font-size: 26px;
+    //         font-weight: $w_semibold;
+    //       }
+    //     }
+    //   }
+    // }
+
+  }
+
+  // --------------------------------------------------------------------------*
+  // PaymentTicket -> Summary
+  // --------------------------------------------------------------------------*
+  &__summary {
+    color: $color-charcoal-gray;
+    background-color: $local-color-bg-summary;
+    padding: 15px 10px;
+    font-size: 13px;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid $color-white;
+
+    @include breakpoint(tablet) {
+      display: table-cell;
+      padding: 10px 20px;
+      vertical-align: middle;
+      width: 28%;
+      border-right: 1px solid $color-white;
+      border-bottom: none;
+    }
+
+    // Variation: Align center
+    &--center {
+      text-align: center;
+      .value.total {
+        float: none;
+        text-align: center;
+        width: 100%;
+      }
+    }
+
+    &__header {
+      margin-bottom: 12px;
+      color: $color-charcoal-gray;
+    }
+    &__details {}
+    .block {
+      width: 100%;
+      overflow: hidden;
+      padding-bottom: 7px;
+      &:last-child {
+        padding-bottom: 0;
+      }
+
+      .label {
+        display: inline-block;
+        float: left;
+        width: 60%;
+        &--total {
+          color: $color-blue-safetypay;
+          color: $color-charcoal-gray;
+          font-size: 15px;
+        }
+        &--center {
+          text-align: center;
+          width: 100%;
+          float: none;
+        }
+      }
+      .value {
+        display: inline-block;
+        float: right;
+        width: 40%;
+        text-align: right;
+        &--total {
+          color: $color-blue-safetypay;
+          color: $color-charcoal-gray;
+          font-size: 17px;
+        }
+        &--center {
+          text-align: center;
+          width: 100%;
+          float: none;
+        }
+      }
+    }
+  }
+  // --------------------------------------------------------------------------*
+  // PaymentTicket -> Content -> Modifier -> Summary
+  // --------------------------------------------------------------------------*
+  &__content--twoColumns {
+    .c-PaymentTicket__summary {
+      width: 100%;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      @include breakpoint(tablet) {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 5px;
+        width: 50%;
+      }
+    }
+  }
+
+  // --------------------------------------------------------------------------*
+  // PaymentTicket -> Expiration
+  // --------------------------------------------------------------------------*
+  &__expiration {
+    background-color: $local-color-bg-expiration;
+    border-radius: 0 0 5px 5px;
+    margin: 0;
+    vertical-align: top;
+    width: 100%;
+    color: $color-charcoal-gray;
+    padding: 15px 10px;
+
+    @include breakpoint(tablet) {
+      border-radius: 0 5px 5px 0;
+      display: table-cell;
+      vertical-align: middle;
+      width: 50%;
+      padding: 10px 20px;
+    }
+
+    &__details {
+    }
+
+    .block {
+      font-size: 13px;
+      line-height: 1.3;
+      color: $color-blue-safetypay;
+      &--timerTitle {
+        margin-bottom: 5px;
+      }
+
+      &--timer {
+        margin-bottom: 15px;
+      }
+
+      &--dateTitle {
+        margin-bottom: 10px;
+      }
+      &--date {
+        font-size: 17px;
+        font-weight: $w_semibold;
+        line-height: 0.83;
+        letter-spacing: -0.5px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .timer {
+      font-size: 0;
+      height: 25px;
+      line-height: 25px;
+      vertical-align: middle;
+      &__block {
+        color: $color-blue-safetypay;
+        font-size: 17px;
+        letter-spacing: -0.5px;
+        display: inline-block;
+        vertical-align: middle;
+        font-weight: $w_semibold;
+        &--clock {
+          background-image: url("../img/clock-animation.gif");
+          background-size: 25px 25px;
+          height: 25px;
+          width: 25px;
+          margin-right: 5px;
+        }
+        &--divisor {
+          padding: 0 2.5px;
+        }
+      }
+    }
+
+  }
+
+  // --------------------------------------------------------------------------*
+  // PaymentTicket -> Content -> Modifier -> Summary
+  // --------------------------------------------------------------------------*
+  &__content--twoColumns {
+    .c-PaymentTicket__expiration {
+      width: 100%;
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 5px;
+      @include breakpoint(tablet) {
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0;
+        width: 50%;
+      }
+    }
+  }
+
+  // --------------------------------------------------------------------------*
+  // PaymentTicket -> Footer
+  // --------------------------------------------------------------------------*
+  &__footer {
+    padding-top: 5px;
+    & * {
+      color: $color-charcoal-gray ;;
+    }
+    @include breakpoint(tablet){
+      display: table;
+      width: 100%;
+    }
+
+    &__info {
+      margin-bottom: 5px;
+      font-size: 11px;
+      line-height: 1.3;
+
+      @include breakpoint(tablet){
+        width: 55%;
+        display: table-cell;
+        margin-bottom: 0;
+      }
+    }
+    &__terms {
+      display: table;
+      width: 100%;
+      @include breakpoint(tablet){
+        width: 45%;
+        text-align: right;
+        display: table-cell;
+      }
+      span {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 11px;
+        height: 20px;
+        line-height: 1.3;
+        display: table-cell;
+        vertical-align: middle;
+        @include breakpoint(tablet){
+          display: inline-block;
+          line-height: 20px;
+        }
+        &:first-child {
+          vertical-align: top;
+          width: 18px;
+          text-align: left;
+        }
+      }
+      input {
+        vertical-align: middle;
+        display: inline-block;
+        line-height: 20px;
+      }
+      a {
+        text-decoration: underline;
+        color: $color-blue-safetypay;
+      }
+      /* Kalypto checkbox class */
+      .toggle {
+        background-size: 100%;
+        height: 13px;
+        width: 13px;
+        vertical-align: middle;
+        line-height: 20px;
+        display: inline-block;
+      }
+    }
+  }
+}
+/*---------------------------------------------------------------------------*
+ * Endof: c-PaymentTicket
+----------------------------------------------------------------------------*/

@@ -1,0 +1,1212 @@
+[
+  {
+    "country": "IT",
+    "participant": "CT000001",
+    "alias": "BANCA POPOLARE DI VICENZA S.P.A."
+  },
+  {
+    "country": "IT",
+    "participant": "CT000005",
+    "alias": "VOLKSBANK - BANCA POPOLARE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000005",
+    "alias": "BANCA POPOLARE DELL ALTO ADIGE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000005",
+    "alias": "VOLKSBANK"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000005",
+    "alias": "SUEDTIROLER VOLKSBANK"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000007",
+    "alias": "VENETO BANCA S.C.P.A."
+  },
+  {
+    "country": "IT",
+    "participant": "CT000009",
+    "alias": "RAIFFEISEN SUEDTIROL"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000009",
+    "alias": "RAIFFEISEN ALTO ADIGE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000010",
+    "alias": "INTESA SANPAOLO  S.P.A."
+  },
+  {
+    "country": "IT",
+    "participant": "CT000010",
+    "alias": "BANCA INTESA SANPAOLO S.P.A."
+  },
+  {
+    "country": "IT",
+    "participant": "CT000011",
+    "alias": "BANCA CR FIRENZE S.P.A."
+  },
+  {
+    "country": "IT",
+    "participant": "CT000016",
+    "alias": "BANCA PROSSIMA S.P.A."
+  },
+  {
+    "country": "IT",
+    "participant": "CT000017",
+    "alias": "BANCO DI NAPOLI S.P.A."
+  },
+  {
+    "country": "IT",
+    "participant": "CT000018",
+    "alias": "CASSA DI RISPARMIO DEL VENETO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000024",
+    "alias": "CASSA DI RISPARMIO IN BOLOGNA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000025",
+    "alias": "CR DEL FRIULI VENEZIA GIULIA S.P.A."
+  },
+  {
+    "country": "IT",
+    "participant": "CT000027",
+    "alias": "CR DI FORLI E DELLA ROMAGNA S.P.A."
+  },
+  {
+    "country": "IT",
+    "participant": "CT000028",
+    "alias": "CR DI PISTOIA E DELLA LUCCHESIA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000006",
+    "alias": "BANCA POPOLARE DI SONDRIO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000037",
+    "alias": "UNICREDIT - ONLINE BANKING"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000038",
+    "alias": "ALLIANZ BANK FINANCIAL ADVISORS SPA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000040",
+    "alias": "ICCREA BANCA S.P.A."
+  },
+  {
+    "country": "IT",
+    "participant": "CT000041",
+    "alias": "BANCA ITB S.P.A."
+  },
+  {
+    "country": "IT",
+    "participant": "CT000043",
+    "alias": "INTESA SANPAOLO  - INBIZ"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000043",
+    "alias": "BANCA INTESA SANPAOLO  - INBIZ"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000044",
+    "alias": "INBIZ - BANCA CR FIRENZE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000049",
+    "alias": "INBIZ - BANCA PROSSIMA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000050",
+    "alias": "INBIZ - BANCO DI NAPOLI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000051",
+    "alias": "INBIZ - CR DI FORLI E DELLA ROMAGNA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000053",
+    "alias": "INBIZ - CR DEL VENETO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000056",
+    "alias": "INBIZ - CR PISTOIA E LUCCHESIA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000059",
+    "alias": "INBIZ - CR IN BOLOGNA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000052",
+    "alias": "INBIZ - CR FRIULI VENEZIA GIULIA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000062",
+    "alias": "CREDITO VALTELLINESE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000062",
+    "alias": "CREVAL"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000062",
+    "alias": "CREDITO ARTIGIANO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000062",
+    "alias": "BANCA CATTOLICA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000062",
+    "alias": "CREDITO PIEMONTESE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000061",
+    "alias": "BANCA DEL PIEMONTE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000064",
+    "alias": "BANCA NUOVA SPA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000063",
+    "alias": "FARBANCA SPA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000065",
+    "alias": "CASSA CENTRALE BANCA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000068",
+    "alias": "BANCA DI BOLOGNA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000070",
+    "alias": "BCC LA RISCOSSA DI REGALBUTO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000071",
+    "alias": "BCC VALPOLICELLA BENACO BANCA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000073",
+    "alias": "ROVIGO BANCA CREDITO COOPERATIVO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000074",
+    "alias": "BANCADRIA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000075",
+    "alias": "BCC SAN BIAGIO DEL VENETO ORIENTALE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000076",
+    "alias": "BCC DEL CARSO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000077",
+    "alias": "CRA DI TREVISO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000078",
+    "alias": "CRA DI VESTENANOVA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000079",
+    "alias": "BCC SAN GIORGIO QUINTO VALLE AGNO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000081",
+    "alias": "BCC EUGANEA DI OSPEDALETTO EUGANEO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000082",
+    "alias": "BCC BRESCIA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000083",
+    "alias": "BCC MARCON VENEZIA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000084",
+    "alias": "BANCA ALTO VICENTINO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000085",
+    "alias": "BCC FRIULI CENTRALE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000086",
+    "alias": "CRA DI LUCINICO FARRA E CAPRIVA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000087",
+    "alias": "BANCA DEI COLLI EUGANEI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000088",
+    "alias": "CRA CORTINA DI AMPEZZO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000089",
+    "alias": "BCC CONVERSANO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000090",
+    "alias": "BCC ANAGNI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000092",
+    "alias": "BASSANO BANCA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000093",
+    "alias": "CR ALTA VALLAGARINA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000094",
+    "alias": "CR TRENTO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000095",
+    "alias": "CR TUENNO VAL DI NON"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000096",
+    "alias": "CR VALLI DI PRIMIERO E VANOI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000097",
+    "alias": "CR TASSULLO E NANNO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000098",
+    "alias": "CR DI ANAUNIA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000100",
+    "alias": "CR SPIAZZO E JAVRE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000101",
+    "alias": "CR SAONE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000102",
+    "alias": "CR ROVERETO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000103",
+    "alias": "CR ROVERE DELLA LUNA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000105",
+    "alias": "CR NOVELLA E ALTA ANAUNIA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000106",
+    "alias": "BANCA ATESTINA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000107",
+    "alias": "CR FIEMME"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000108",
+    "alias": "CR PINZOLO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000109",
+    "alias": "CR ALTA VALSUGANA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000138",
+    "alias": "CR VAL DI SOLE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000111",
+    "alias": "CR VAL DI SOLE INBANK"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000113",
+    "alias": "CR VAL DI FASSA E AGORDINO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000114",
+    "alias": "CR MEZZOLOMBARDO E SAN MICHELE A.A."
+  },
+  {
+    "country": "IT",
+    "participant": "CT000115",
+    "alias": "CR MEZZOCORONA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000117",
+    "alias": "CR LIZZANA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000118",
+    "alias": "CR LAVIS VALLE DI CEMBRA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000119",
+    "alias": "CR ISERA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000120",
+    "alias": "CR VALSUGANA E TESINO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000121",
+    "alias": "CR GIOVO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000141",
+    "alias": "CREDITO COOPERATIVO REGGIANO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000123",
+    "alias": "CR DEGLI ALTIPIANI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000124",
+    "alias": "CR BASSA ANAUNIA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000125",
+    "alias": "CR GIUDICARIE VALSABBIA PAGANELLA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000126",
+    "alias": "CR CENTROFIEMME CAVALESE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000130",
+    "alias": "CR LEDRO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000131",
+    "alias": "CR ADAMELLO BRENTA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000132",
+    "alias": "CR ALTO GARDA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000134",
+    "alias": "CR BASSA VALLAGARINA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000135",
+    "alias": "CREDITO COOPERATIVO FRIULI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000136",
+    "alias": "CREDITO LOMBARDO VENETO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000150",
+    "alias": "BANCA FINNAT EURAMERICA SPA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000149",
+    "alias": "IMPREBANCA SPA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000148",
+    "alias": "BANCA DI PIACENZA SCPA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000147",
+    "alias": "BANCA POPOLARE PUGLIESE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000146",
+    "alias": "BANCA POPOLARE VALCONCA SCPA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000145",
+    "alias": "CASSA DI RISPARMIO PROV. DI CHIETI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000144",
+    "alias": "CASSA DI RISPARMIO DI SALUZZO SPA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000143",
+    "alias": "CASSA DI RISPARMIO DI CESENA SPA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000142",
+    "alias": "BANCA POPOLARE DEL LAZIO SCPA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000151",
+    "alias": "INTESA SANPAOLO PRIVATE BANKING SPA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000152",
+    "alias": "CASSA DI RISPARMIO DI RAVENNA SPA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000153",
+    "alias": "BANCA SISTEMA SPA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000154",
+    "alias": "CASSA DI RISPARMIO DI RIMINI SPA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000155",
+    "alias": "BANCA FIDEURAM"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000157",
+    "alias": "CRCENTO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000157",
+    "alias": "CASSA DI RISPARMIO DI CENTO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000156",
+    "alias": "UNIPOL BANCA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000158",
+    "alias": "BANCA VALSABBINA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000161",
+    "alias": "BANCA POPOLARE DI MILANO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000161",
+    "alias": "BPM"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000164",
+    "alias": "CREDITO SICILIANO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000165",
+    "alias": "BANCA GENERALI SPA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000166",
+    "alias": "CASSA DI RISPARMIO DI FERMO SPA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000168",
+    "alias": "BANCA DI IMOLA SPA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000173",
+    "alias": "B.C.C. CARNIA E GEMONESE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000174",
+    "alias": "B.C.C. ROMAGNA EST"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000175",
+    "alias": "CHIANTIBANCA - CREDITO COOPERATIVO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000176",
+    "alias": "B.C.C. DI BASILIANO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000179",
+    "alias": "B.C.C. SAN GIUSEPPE DI MUSSOMELI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000178",
+    "alias": "B.C.C. DI FISCIANO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000178",
+    "alias": "C.R.A. DI FISCIANO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000177",
+    "alias": "B.C.C. DELLA MARCA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000180",
+    "alias": "BANCA SVILUPPO COOPERAZ. CREDITO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000181",
+    "alias": "BCC BELLEGRA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000182",
+    "alias": "BCC TRIUGGIO VALLE DEL LAMBRO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000183",
+    "alias": "BCC LAUDENSE LODI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000184",
+    "alias": "BCC PIANFEI ROCCA DE BALDI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000185",
+    "alias": "BCC PRATOLA PELIGNA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000186",
+    "alias": "BCC AGRO PONTINO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000187",
+    "alias": "BCC VICENTINO POJANA MAGGIORE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000188",
+    "alias": "BCC DI GAMBATESA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000190",
+    "alias": "BCC DI TERAMO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000189",
+    "alias": "BCC ROMAGNA OCCIDENTALE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000191",
+    "alias": "BCC SAN MARCO DEI CAVOTI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000192",
+    "alias": "BANCA POPOLARE ETICA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000193",
+    "alias": "BCC FORMELLO E TREVIGNANO ROMANO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000196",
+    "alias": "CREDICOOP CERNUSCO SUL NAVIGLIO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000201",
+    "alias": "BCC VERSILIA LUNIGIANA E GARFAGNANA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000202",
+    "alias": "BCC NETTUNO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000204",
+    "alias": "BCC AGRO BRESCIANO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000206",
+    "alias": "CRA DI BRENDOLA C.C."
+  },
+  {
+    "country": "IT",
+    "participant": "CT000207",
+    "alias": "BCC BATTIPAGLIA E M.CORVINO ROVELLA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000208",
+    "alias": "BCC ALTA BRIANZA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000209",
+    "alias": "BCC DI FRASCATI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000210",
+    "alias": "CREDITO COOPERATIVO AGRIGENTINO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000212",
+    "alias": "BANCA DI TARANTO BCC"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000213",
+    "alias": "EMILBANCA C.C."
+  },
+  {
+    "country": "IT",
+    "participant": "CT000214",
+    "alias": "BCC CESENA E RONTA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000194",
+    "alias": "BCC CIVITANOVA MARCHE MONTECOSARO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000195",
+    "alias": "BCC DI CARAGLIO E RIVIERA DEI FIORI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000197",
+    "alias": "BANCO DI CREDITO P. AZZOAGLIO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000198",
+    "alias": "BCC SANGRO TEATINA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000199",
+    "alias": "BCC SAN MARZANO DI SAN GIUSEPPE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000200",
+    "alias": "BCC SALA DI CESENATICO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000203",
+    "alias": "BCC VALLE DEL TORTO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000205",
+    "alias": "BANCA CENTRO EMILIA C.C."
+  },
+  {
+    "country": "IT",
+    "participant": "CT000211",
+    "alias": "BANCA MALATESTIANA C.C."
+  },
+  {
+    "country": "IT",
+    "participant": "CT000215",
+    "alias": "BCC CASALGRASSO E SANT ALBANO STURA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000216",
+    "alias": "BANCA DI FORLI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000217",
+    "alias": "UNICREDIT - UNIWEB CORPORATE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000218",
+    "alias": "BCC MUTUO SOCCORSO DI GANGI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000219",
+    "alias": "BCC G. TONIOLO DI SAN CATALDO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000220",
+    "alias": "CREDITO TREVIGIANO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000221",
+    "alias": "BCC DI SANT ELENA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000222",
+    "alias": "BCC SAN BIAGIO PLATANI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000223",
+    "alias": "BANCO EMILIANO CREDITO COOPERATIVO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000224",
+    "alias": "BCC DI GATTEO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000225",
+    "alias": "BANCA DI VERONA CC CADIDAVID"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000226",
+    "alias": "BCC DI GAUDIANO DI LAVELLO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000227",
+    "alias": "BCC RAVENNATE E IMOLESE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000228",
+    "alias": "BANCA ALPI MARITTIME - CC CARRU"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000229",
+    "alias": "BCC DI CARAVAGGIO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000230",
+    "alias": "BCC DI BARLASSINA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000231",
+    "alias": "BCC DI ARBOREA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000232",
+    "alias": "BCC PRIVERNATE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000233",
+    "alias": "BCC DI BARI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000234",
+    "alias": "CREDITO COOPERATIVO BENE VAGIENNA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000264",
+    "alias": "BANCA DI PESARO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000265",
+    "alias": "BCC DEL CIRCEO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000266",
+    "alias": "BCC DI VALLEDOLMO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000267",
+    "alias": "BCC DI ALTOFONTE E CACCAMO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000268",
+    "alias": "BCC DI CARUGATE E INZAGO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000269",
+    "alias": "BANCA DI CHERASCO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000270",
+    "alias": "BCC DI PACECO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000271",
+    "alias": "CRA DI PALIANO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000272",
+    "alias": "BCC DI SCAFATI E CETARA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000273",
+    "alias": "CASSA RURALE DI TREVIGLIO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000274",
+    "alias": "BANCA DON RIZZO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000275",
+    "alias": "BCC DI PETRALIA SOTTANA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000276",
+    "alias": "BCC DI FLUMERI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000277",
+    "alias": "BCC DI ALBA LANGHE ROERO E CANAVESE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000280",
+    "alias": "CREDITO COOPERATIVO MEDIOCRATI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000278",
+    "alias": "BCC DI BINASCO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000279",
+    "alias": "BCC DI ROMA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000281",
+    "alias": "CENTROMARCA BANCA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000283",
+    "alias": "CREDIVENETO CREDITO COOPERATIVO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000282",
+    "alias": "BANCA DI MONASTIER E DEL SILE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000172",
+    "alias": "MPS"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000172",
+    "alias": "BANCA MONTE DEI PASCHI DI SIENA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000286",
+    "alias": "BCC ANTONELLO DA MESSINA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000285",
+    "alias": "BCC DI PACHINO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000288",
+    "alias": "BCC DEI CASTELLI E DEGLI IBLEI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000287",
+    "alias": "BCC CREDITO ETNEO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000289",
+    "alias": "BANCA SVILUPPO TUSCIA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000290",
+    "alias": "CREDITO DI ROMAGNA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000291",
+    "alias": "BANCA CRS"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000292",
+    "alias": "CRA - BCC DI CANTU"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000293",
+    "alias": "BCC DI CAPRANICA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000295",
+    "alias": "BCC DI PONTASSIEVE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000294",
+    "alias": "BCC DI CASCINA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000296",
+    "alias": "BCC DI BUONABITACOLO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000297",
+    "alias": "BCC DI BUSTO GAROLFO E BUGUGGIATE"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000298",
+    "alias": "BCC DI FILOTTRANO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000299",
+    "alias": "CRA DI BOVES"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000301",
+    "alias": "BPM - SERVIZIO WEBANK"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000301",
+    "alias": "WEBANK - BANCA POPOLARE DI MILANO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000300",
+    "alias": "BCC AQUARA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000303",
+    "alias": "BCC DI OSTRA E MORRO D ALBA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000302",
+    "alias": "B.C.C. DI RECANATI E COLMURANO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000309",
+    "alias": "BCC DI PALESTRINA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000308",
+    "alias": "BANCA CRAS"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000311",
+    "alias": "CR DON LORENZO GUETTI"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000312",
+    "alias": "BCC SAN BARNABA DI MARINO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000313",
+    "alias": "BCC OGLIO E SERIO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000069",
+    "alias": "ALTO ADIGE BANCA - SUEDTIROL"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000314",
+    "alias": "BCC UMBRIA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000315",
+    "alias": "BCC DI RIANO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000316",
+    "alias": "BANCA PATAVINA"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000317",
+    "alias": "BANCA MONTE PRUNO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000318",
+    "alias": "CASSA RAIFFEISEN MERANO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000318",
+    "alias": "RAIFFEISENKASSE MERAN"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000319",
+    "alias": "BCC DI BORGHETTO LODIGIANO"
+  },
+  {
+    "country": "IT",
+    "participant": "CT000320",
+    "alias": "BANCA CENTROPADANA"
+  }
+]

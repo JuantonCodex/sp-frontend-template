@@ -1,0 +1,46 @@
+//User data information
+.c-UserDataInformation(data-nom-entidad="loterias", data-authenticated="no")
+  .c-UserDataInformation__title Informe seus dados
+  .c-UserDataInformation__content
+  
+    form.c-UserDataInformation__form#frm_datos_usuario_loterica_caixa(action="#")
+      .c-UserDataInformation__list
+        .c-UserDataInformation__item
+          .c-UserDataInformation__boxLabelInput
+            span.label Informe seu CPF
+            .BoxInput
+              .InputWrapper
+                input.InputText.InputText--nroIdentidad(type="text",  name="frm_datos_nro_identidad", placeholder="___.___.___-__")
+          .c-UserDataInformation__boxLabelInput
+            span.label Confira o nome
+            .BoxInput
+              .InputWrapper
+                input.InputText.InputText--nombreCompleto.readOnly(type="text",  name="frm_datos_nombre_completo", placeholder="", maxlength="100", readonly)
+        .c-UserDataInformation__item
+          .c-UserDataInformation__boxLabelInput
+            span.label Email
+            .BoxInput
+              .InputWrapper
+                input.InputText.InputText--correo(type="email", name="frm_datos_correo", placeholder="", maxlength="50")
+          .c-UserDataInformation__boxLabelInput
+            span.label Celular
+            .BoxInput
+              select.Select#prefijo_telefono_loterica(name="frm_datos_prefijo_telefono")
+                option(value='') +51
+                option(value='') +51
+                option(value='', selected="selected") +55
+                option(value='') +1-011
+                option(value='') +57
+                option(value='') +503
+                option(value='') +1-011
+                option(value='') +502
+                option(value='') +504
+                option(value='') +52
+                option(value='') +507
+              .InputWrapper.InputWrapper--celular
+                input.InputText.InputText--celular.InputText--small(type="tel", name="frm_datos_celular", placeholder="(__) _____-____")
+      
+      .c-UserDataInformation__submitContainer
+        - var text_button = 'Obtenha suas instruções de pagamento'
+        include ./c-call-to-action-button.jade
+      

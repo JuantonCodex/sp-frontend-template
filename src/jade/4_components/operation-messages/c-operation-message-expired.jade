@@ -1,0 +1,17 @@
+.c-OperationMessage
+  .c-OperationMessage__content
+    .c-OperationMessage__innerContent
+      .c-OperationMessage__imageBox.c-OperationMessage__imageBox--expiredTime
+        img.c-OperationMessage__image.c-OperationMessage__image--expiredTime(src="img/alarm-clock.png", alt="Expired time")
+      .c-OperationMessage__details
+        .c-OperationMessage__title Ciao!
+        .c-OperationMessage__text
+          p Il tempo è scaduto. Si prega di fare un nuovo acquisto.
+          
+        //- CallToAction Button
+        - var text_button = 'Un nuovo acquisto'
+        include ./../c-call-to-action-button.jade
+    .c-OperationMessage__footer
+      include ./../c-logo-safetypay.jade
+      
+    

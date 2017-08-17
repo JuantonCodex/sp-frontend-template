@@ -1,0 +1,40 @@
+//PaymentTicket - Pagaqui
+.c-PaymentTicket.is-visible(data-nom-entidad="pagaqui")
+  //- .c-PaymentTicket__title Ticket de Pago
+  .c-PaymentTicket__header 
+    .c-PaymentTicket__header__content Dirijase a um agente <span class="h-color-blue h-semi-bold">PAGAQUI</span> e realize o pagamento do <span class="h-color-blue h-semi-bold">TELEINGRESO</span> utilizando o número <span class="h-color-blue h-semi-bold">381571727</span>
+  .c-PaymentTicket__content
+    .c-PaymentTicket__code.nopadding
+      .row.row--agencia
+        span.title-value Forma de pagamento
+        span.value Teleingreso
+      .row.row--codigo
+        span.title-value Código Teleingreso
+        span.value 381571727
+    
+    //Summary
+    .c-PaymentTicket__summary.c-PaymentTicket__summary--center
+      .c-PaymentTicket__summary__header
+        span Resumo de pagamento
+      .c-PaymentTicket__summary__details
+        .row
+          span.value.total 998 €
+    .c-PaymentTicket__expiration
+      .c-PaymentTicket__expiration__content
+        .timer-message Você tem:
+        .timer-clock
+          i.icon-clock
+          span#timer_hor_1 183h
+          span.divisor :
+          span#timer_min_1(data-minutos='15') 58m
+          span.divisor :
+          span#timer_seg_1 24s
+        .timer-message.timer-message--bottom Pedido expira em:
+        .timer-clock
+          span 29 feb - 11:00 pm
+  .c-PaymentTicket__footer
+    .c-PaymentTicket__footer__info
+      span O valor máximo de pagamento em <span class="h-color-blue h-semi-bold">Pagaqui</span> é de <span class="h-color-blue h-semi-bold">999.9  €</span>
+    .c-PaymentTicket__footer__terms
+      span <input type="checkbox" checked="checked"> 
+      span Eu aceito os <a href="#">Termos e Condições</a> e <a href="#">Politicas de Privacidade.</a>

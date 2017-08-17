@@ -1,0 +1,304 @@
+/*---------------------------------------------------------------------------*
+ * c-UserDataInformation
+----------------------------------------------------------------------------*/
+.c-UserDataInformation {
+  &, * {
+    font-family: $ff_principal;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  &.is-visible {
+    display: block;
+  }
+
+  &__content {
+    margin-bottom: 10px;
+  }
+
+  &__title {
+    font-size: 15px;
+    color: $color-orange-base;
+    margin-bottom: 10px;
+    .mensaje_extra {
+      font-size: 11px;
+      color: $color-charcoal-gray;
+    }
+  }
+  &__form {
+  }
+
+  &__list {
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  }
+
+  &__item {
+    width: 100%;
+
+    @include breakpoint(phablet){
+      float: left;
+      width: 48%;
+      &:first-child {
+        margin-right: 2%;
+      }
+      &:last-child {
+        margin-left: 2%;
+      }
+    }
+    @include breakpoint(desktop){
+      width: 46%;
+      &:first-child {
+        margin-right: 4%;
+      }
+      &:last-child {
+        margin-left: 4%;
+      }
+    }
+  }
+
+  &__submitContainer {
+    .c-CallToActionButton {
+      padding: 0;
+    }
+    .c-CallToActionButton__text {
+      font-size: 12px;
+    }
+    @include breakpoint(mobile_small){
+      .c-CallToActionButton {
+        padding: 0 10px;
+      }
+      .c-CallToActionButton__text {
+        font-size: 14px;
+      }
+    }
+  }
+  &__boxLabelInput {
+    margin-bottom: 10px;
+    &:after {
+      clear: both;
+      content: '';
+      display: block;
+    }
+    @include breakpoint(tablet){
+      display: table;
+      width: 100%;
+    }
+
+    span.label {
+      color: $color-charcoal-gray;
+      display: block;
+      font-size: 13px;
+      height: 30px;
+      line-height: 30px;
+
+      @include breakpoint(mobile){
+        float: left;
+        width: 130px;
+      }
+      @include breakpoint(phablet){
+        float: none;
+        width: 100%;
+      }
+      @include breakpoint(tablet){
+        width: 130px;
+        display: table-cell;
+      }
+    }
+
+    .BoxInput {
+      font-size: 0;
+      @include breakpoint(mobile){
+        float: left;
+      }
+      @include breakpoint(tablet){
+        float: none;
+        display: table-cell;
+        text-align: right;
+        vertical-align: middle;
+      }
+
+      .InputWrapper {
+        position: relative;
+        &--celular {
+          width: 78%;
+          display: inline-block;
+          vertical-align: top;
+          label.error {
+            width: 140px;
+          }
+        }
+        @include breakpoint(mobile){
+          width: auto;
+        }
+      }
+
+      // ddSlick class container
+      .dd-container {
+        margin-right: 2% !important;
+        width: 20% !important;
+        display: inline-block;
+        @include breakpoint(mobile){
+          width: 65px !important;
+          margin-right: 5px !important;
+        }
+
+      }
+      .dd-select {
+        width: 100% !important;
+      }
+
+      .InputText {
+        border-radius: 5px;
+        border: 1px solid $color-orange-base;
+        color: $color-charcoal-gray;
+        display: inline-block;
+        font-size: 13px;
+        height: 30px;
+        padding: 5px 7px;
+        // width: 210px;
+        vertical-align: top;
+        letter-spacing: 1px;
+        width: 100%;
+        &::-webkit-contacts-auto-fill-button {
+          opacity: 0;
+          visibility: hidden;
+          pointer-events: none;
+          position: absolute;
+          right: 0;
+        }
+        @include breakpoint(mobile){
+          width: 210px;
+        }
+
+        &--small {
+          width: 100%;
+          @include breakpoint(mobile){
+            width: 140px;
+          }
+
+        }
+
+        &--nombreCompleto {
+          letter-spacing: normal;
+          &.readOnly {
+            background-color: #d9d5d5;
+            color: #696666;
+            text-transform: uppercase;
+            font-size: 12px;
+          }
+        }
+      }
+      .Select {
+        border-radius: 5px;
+        border: 1px solid $color-orange-base;
+        display: inline-block;
+        height: 30px;
+        width: 55px;
+        margin-right: 5px;
+        &:focus {
+          outline: none;
+        }
+      }
+
+      // Custom select using ddslick plugin
+      .dd-container {
+        border-radius: 5px;
+        box-sizing: border-box;
+        display: inline-block;
+        height: 30px;
+        margin-right: 5px;
+        width: 55px;
+        .overlay {
+          background: $color-white;
+          opacity: 0.5;
+          cursor: not-allowed;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          z-index: 10;
+          left: 0;
+          top: 0;
+        }
+      }
+      .dd-select {
+        padding-left: 5px;
+      }
+      .dd-pointer {
+        right: 5px;
+      }
+      .dd-options {
+        height: 150px;
+      }
+      .dd-options .dd-option {
+        color: #8e8e8e;
+        cursor: pointer;
+      }
+      .dd-selected {
+        font-size: 13px;
+      }
+      .dd-selected-text {
+        color: #8e8e8e;
+      }
+      .dd-option-selected {
+        background: $color-white-smoke;
+      }
+      .dd-option .dd-option-text {
+        text-align: left;
+        font-size: 11px;
+        width: 100%;
+        display: block;
+      }
+
+      // Error messages
+      label.error {
+        background-color: $color-white;
+        border-radius: 5px;
+        border: 1px solid $color-red-error;
+        color: $color-red-error;
+        font-size: 12px;
+        font-weight: $w_semibold;
+        height: 25px;
+        left: 0;
+        line-height: 25px;
+        position: absolute;
+        text-align: center;
+        top: -33px;
+        width: 210px;
+      }
+      label.error:before {
+        border-color: $color-white transparent transparent transparent;
+        border-style: solid;
+        border-width: 6px 5px 0 5px;
+        bottom: -5px;
+        content: '';
+        display: block;
+        height: 0;
+        left: 50%;
+        margin-left: -5px;
+        position: absolute;
+        width: 0;
+        z-index: 100;
+      }
+      label.error:after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 6px 5px 0 5px;
+        border-color: $color-red-error transparent transparent transparent;
+        margin-left: -5px;
+        left: 50%;
+        bottom: -7px;
+        position: absolute;
+      }
+    }
+  }
+}
+/*---------------------------------------------------------------------------*
+ * Endof: c-UserDataInformation
+----------------------------------------------------------------------------*/

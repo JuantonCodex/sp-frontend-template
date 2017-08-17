@@ -1,0 +1,108 @@
+/*---------------------------------------------------------------------------*
+ * c-OperationMessage
+----------------------------------------------------------------------------*/
+.c-OperationMessage {
+  &, * {
+    box-sizing: border-box;
+    font-family: $ff_principal;
+  }
+  color: $color-blue-safetypay; ;
+  font-size: 17px;
+  max-width: 750px;
+  margin: 0 auto;
+
+  &__content {
+    padding: 20px 10px 0 10px;
+  }
+  &__innerContent {
+    display: table;
+    width: 100%;
+  }
+  &__imageBox {
+    display: table-cell;
+    vertical-align: top;
+    padding-right: 10px;
+    width: 65px;
+    &--expiredTime {
+      width: 90px;
+    }
+  }
+  &__image {
+    width: 100%;
+    max-width: 39px;
+    display: block;
+    border: 0;
+    &--expiredTime {
+      max-width: 71px;
+    }
+  }
+  &__details {
+    display: table-cell;
+    vertical-align: top;
+  }
+  &__title{
+    padding-top: 5px;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: $w_bold;
+  }
+  &__text {
+    padding-bottom: 20px;
+    p {
+      margin: 5px 0 10px 0;
+      vertical-align: top;
+      line-height: 1.5;
+      font-size: 17px;
+      span {
+        line-height: 1;
+        display: inline-block;
+      }
+      img {
+        vertical-align: top;
+        height: 19px;
+      }
+    }
+  }
+  &__paymentSummary {
+    margin-bottom: 20px;
+    &:after {
+      content: '';
+      clear: both;
+      display: block;
+    }
+  }
+  &__paymentItem {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    @include breakpoint(phablet){
+      float: left;
+      width: 50%;
+      &:nth-child(1),
+      &:nth-child(3) {
+        padding-right: 5px;
+      }
+      &:nth-child(2),
+      &:nth-child(4){
+        padding-left: 5px;
+      }
+    }
+  }
+  .c-CallToActionButton {
+    color: $color-white;
+    height: 40px;
+    line-height: 40px;
+    width: 240px;
+    &__text{
+      color: $color-white;
+      font-size: 16px;
+    }
+  }
+
+  &__footer {
+    padding-top: 15px;
+    text-align: right;
+  }
+}
+/*---------------------------------------------------------------------------*
+ * Endof: c-OperationMessage
+----------------------------------------------------------------------------*/

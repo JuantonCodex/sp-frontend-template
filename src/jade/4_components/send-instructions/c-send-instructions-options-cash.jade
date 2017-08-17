@@ -1,0 +1,18 @@
+//- Send instructions by email
+.c-SendInstructionsOptions
+  .c-SendInstructionsOptions-guia Enviar instruções via
+  .c-SendInstructionsOptions-content
+    // Vía correo
+    form#form_instructions_email_cash(action='#', method='post')
+      .BoxInput(title='Ingresar correo')
+        input(type='email', name='ipt_instr_correo_efectivo', class="InputText InputText--email", placeholder='Email', maxlength='20')
+        .BoxButton
+          button.SubmitButton.SubmitButton--email(type="submit")
+    //- Impresión
+    .BoxInput(title='Imprimir')
+      .BoxButton
+        button.SubmitButton.SubmitButton--print
+    //- Location
+    //- .BoxInput(title='Pagaqui mais próximo')
+      .BoxButton
+        a.SubmitButton.SubmitButton--location(href="http://www.pagaqui.pt/agentes/", target="_blank")

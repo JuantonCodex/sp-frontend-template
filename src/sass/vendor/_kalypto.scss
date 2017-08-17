@@ -1,0 +1,28 @@
+/*---------------------------------------------------------------------------*
+ * Kalypto plugin
+----------------------------------------------------------------------------*/
+/* Switch Styles */
+.toggle {
+  background:url("../img/checkbox-2x.png") bottom left;
+  display:block;
+  width:20px;
+  height:18px;
+}
+.toggle.checked {
+  background-position: left top;
+}
+.toggleR {
+  background:url("../img/radio.png") bottom left;
+  display:block;
+  width:20px;
+  height:18px;
+}
+.toggleR.checked {
+  background-position: left top;
+}
+.disabled {
+  opacity: .7;
+}
+/*---------------------------------------------------------------------------*
+ * Endof: Kalypto plugin
+----------------------------------------------------------------------------*/

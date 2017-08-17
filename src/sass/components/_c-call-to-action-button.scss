@@ -1,0 +1,51 @@
+/*---------------------------------------------------------------------------*
+ * c-CallToActionButton
+----------------------------------------------------------------------------*/
+// Own configuration
+$color-button : $color-blue-safetypay;
+$color-button-hover : $color-blue-dark-1;
+
+.c-CallToActionButton {
+  &, * { box-sizing:border-box; }
+
+  background: $color-button;
+  border-radius: 5px;
+  border: none;
+  box-sizing: border-box;
+  color: $color-white;
+  cursor: pointer;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 10px;
+  text-align: center;
+  width: 100%;
+  font-size: 0;
+  display: block;
+  &:hover {
+    background: $color-button-hover;
+  }
+  &:focus {
+    outline: none;
+  }
+  &.is-disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  &__icon {
+    background: transparent url("../img/sprite-icons.png") -90px 0 no-repeat;
+    background-size: 190px 100px;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    line-height: 100%;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  &__text {
+    vertical-align: middle;
+    font-size: 14px;
+  }
+}
+/*---------------------------------------------------------------------------*
+ * Endof: c-CallToActionButton
+----------------------------------------------------------------------------*/

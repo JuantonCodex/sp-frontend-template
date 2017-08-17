@@ -1,0 +1,14 @@
+//Send instructions by sms
+.c-SendInstructionsSms
+  .c-SendInstructionsSms__content
+    .c-SendInstructionsSms__row
+      form#form_instructions_sms_cash.is-table(action='#', method='post')
+        .col
+            input(type='tel', name='telephone', class="InputText InputText--visibleTelephone", placeholder='Celular (9 dígitos)', maxlength='9')
+        .col
+          .BoxButton
+            //- CallToAction Button
+            - var text_button = 'Enviar instruções via SMS'
+            include ./../c-call-to-action-button.jade
+            .BoxIcon: i.icon.icon--sendMessage
+//Endof:Send instructions by sms

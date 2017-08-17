@@ -1,0 +1,141 @@
+/*---------------------------------------------------------------------------*
+ * c-PlacesOfPayment
+----------------------------------------------------------------------------*/
+.c-PlacesOfPayment {
+  margin-bottom: 10px;
+  display: none;
+
+  &-title {
+    margin: 0 0 15px 0;
+    font-size: 18px;
+    color: $color-blue-safetypay;
+  }
+
+  // Slider container
+  &-slideWrapper {
+    position: relative;
+    outline: none;
+    @include breakpoint(phablet) {
+      padding-right: 18px;
+    }
+
+    &.padding_left {
+      @include breakpoint(phablet) {
+        padding-left: 18px;
+      }
+    }
+    &.no_padding_right {
+      @include breakpoint(phablet) {
+        padding-right: 0;
+      }
+    }
+  }
+
+  // Nav buttons container
+  &-listButtons {
+    // Boton del slide
+    .slideButton {
+      cursor: pointer;
+      height: 30px;
+      font-size: 0;
+      vertical-align: middle;
+      line-height: 30px;
+      margin-top: -15px;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      width: 18px;
+      z-index: 1;
+      &.slick-disabled {
+        display: none !important;
+      }
+      i {
+        background: transparent url(../img/sprite-icons.png) -178px 0 no-repeat;
+        background-size: 190px 100px;
+        vertical-align: middle;
+        height: 14px;
+        width: 12px;
+        z-index: 0;
+        display: inline-block;
+      }
+      &--prev {
+        left: -10px;
+        i {
+          background-position: -178px -14px;
+        }
+        @include breakpoint(phablet) {
+          left: 0;
+        }
+      }
+      &--next {
+        right: -10px;
+        @include breakpoint(phablet) {
+          right: 0;
+        }
+      }
+    }
+  }
+
+  // Slide
+  &-list {
+    overflow: hidden;
+  }
+
+  // Elemento principal del slide
+  &-item {
+    outline: none;
+    float: left;
+    width: 100%;
+  }
+
+  // Contenedor del link que va dentro de los items
+  .link-wrapper {
+    float: left;
+    padding: 1px 0;
+    text-align: center;
+    width: 50%;
+    font-size: 16px;
+    &:nth-child(3),
+    &:nth-child(4){
+      margin-top: 10px;
+    }
+
+    @include breakpoint(phablet) {
+      width: 25%;
+      &:nth-child(3),
+      &:nth-child(4){
+        margin-top: 0;
+      }
+    }
+  }
+
+  // Elemento más interno de todo el slide
+  .link {
+    border: 3px solid $color-white;
+    display: block;
+    height: 47px;
+    line-height: 47px;
+    margin: 0 auto;
+    outline: 1px solid $color-blue-light-2;
+    text-align: center;
+    width: 105px;
+    &.is-selected,
+    &.seleccionado {
+      outline-color: $color-white;
+      border-color: $color-blue-light-1;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 130px;
+      width: 100%;
+    }
+  }
+
+  &__myBankSearch {
+    margin-top: 10px;
+  }
+}
+/*---------------------------------------------------------------------------*
+ * Endof: c-PlacesOfPayment
+----------------------------------------------------------------------------*/

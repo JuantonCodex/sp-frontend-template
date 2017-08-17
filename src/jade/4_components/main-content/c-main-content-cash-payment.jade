@@ -1,0 +1,43 @@
+//MainContent[Cash Payment]
+section.MainContent.is-visible(data-nom="cash-payment")
+  
+  //MainContent -> Header
+  .MainContent__header
+    include ../places-of-payment/cash/c-places-of-payment-cash.jade
+  
+  //UserDataInformation
+  include ./../c-user-data-information.jade
+    
+  .MainContent__content.is-hide
+    
+    if information_message == true
+      // Si la variable 'information_message' es true, en vez de mostrar un ticket, se muestra un mensaje de error
+      include ../c-information-message.jade
+    
+    
+    else
+      // Si la variable 'information_message' no es true, entonces se muestra un ticket de pago
+      
+      //PaymentTicketGroup[Cash Payment]
+      .c-PaymentTicketGroup(data-nom="cash-payment")
+        include ../payment-tickets/cash/general/c-payment-ticket-loterias.jade
+  
+  .MainContent__footer.is-hide
+    if information_message == true
+      //- Message footer
+      .MainContent__footer__cell-3
+        include ../c-help-info.jade
+      .MainContent__footer__cell-3
+      .MainContent__footer__cell-3
+    
+    else 
+      //- General footer
+      .MainContent__footer__instructions
+      
+        //- Module: Send instructions by email, print, etc
+        include ../send-instructions/c-send-instructions-options-cash.jade
+        
+      .MainContent__footer__info
+        .MainContent__footer__info__cell
+        .MainContent__footer__info__cell
+          include ../c-logo-safetypay.jade

@@ -1,0 +1,50 @@
+//Start: c-PaymentTicket [MyBank]
+.c-PaymentTicket.is-visible(data-nom-entidad="mybank")
+  
+  //- Header
+  //- .c-PaymentTicket__header 
+  //-   .c-PaymentTicket__header__content
+
+  //- Content
+  .c-PaymentTicket__content.c-PaymentTicket__content--twoColumns
+    //- Code block: not in this case
+    
+    //- Summary block
+    .c-PaymentTicket__summary
+      .c-PaymentTicket__summary__header
+        span Transferisce il valore esatto
+      .c-PaymentTicket__summary__details
+        .block
+          span.label Subtotale
+          span.value 3.100,00 €
+        .block
+          span.label L costi operativi
+          span.value 100,00 €
+        .block
+          span.label.label--total <span class="h-color-blue">Totale esatto</span>
+          span.value.value--total <span class="h-semi-bold h-color-blue">3.200,00 €</span>
+    
+    //- Expiration block
+    .c-PaymentTicket__expiration
+      .c-PaymentTicket__expiration__details.h-a-center
+          
+        .block.block--timerTitle Ordine scade:
+        .block.block--timer
+          
+          //Timer
+          .timer
+            .timer__block.timer__block--clock
+            .timer__block.timer__block--hours 183h
+            .timer__block.timer__block--divisor :
+            .timer__block.timer__block--minutes 58m
+            .timer__block.timer__block--divisor :
+            .timer__block.timer__block--seconds 24s
+          
+  //- Footer
+  .c-PaymentTicket__footer
+    .c-PaymentTicket__footer__info
+    .c-PaymentTicket__footer__terms
+      span <input type="checkbox" checked="checked"> 
+      span Acceito i <a href="#">Termini e condizioni</a> e <a href="#">Tutela della privacy.</a>
+
+//End: c-PaymentTicket

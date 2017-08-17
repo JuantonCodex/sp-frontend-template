@@ -1,0 +1,42 @@
+//PaymentTicket - Pagaqui
+.c-PaymentTicket.is-visible(data-nom-entidad="pagaqui")
+  //- .c-PaymentTicket__title Ticket de Pago
+  .c-PaymentTicket__header 
+    .c-PaymentTicket__header__content
+      .c-PaymentTicket__header__content__box
+        | Dirija-se a uma Casa Lotérica ou agência da Caixa e informe o <span class="h-semi-bold">Convênio PEC SafetyPay Brasil</span> e o <span>Identificador do cliente</span>, conforme abaixo:
+      .c-PaymentTicket__header__content__box
+        .c-PaymentTicket__expirationStick Pedido expira em: <span class="h-semi-bold">02 jul - 11:36</span>
+        
+  .c-PaymentTicket__content
+    .c-PaymentTicket__code
+      .row.row--agencia
+        span.title-value N° de Convênio PEC
+        span.value 30911745
+        span.minor-text SafetyPay Brasil
+      .line
+      .row.row--codigo
+        span.title-value Identificador do cliente
+        span.value.large 656734
+    
+    //Summary
+    .c-PaymentTicket__summary.c-PaymentTicket__summary--center
+      .c-PaymentTicket__summary__header
+        span Resumo de pagamento
+      .c-PaymentTicket__summary__details
+        .row
+          span.value.total <span class="h-semi-bold">R$ 3.200,00</span>
+    .c-PaymentTicket__expiration
+      .c-PaymentTicket__expiration__content.c-PaymentTicket__expiration__content--smsInstructions
+        .c-PaymentTicket__expiration__title <span class="h-semi-bold">Receba o código no seu celular</span>
+        
+        include ../../../send-instructions/c-send-instructions-sms-cash.jade
+        
+          
+
+  .c-PaymentTicket__footer
+    .c-PaymentTicket__footer__info
+      span Pagamentos acima de <span class="h-semi-bold">R$2.000,00</span> devem ser feitos somente nas agências da CEF.
+    .c-PaymentTicket__footer__terms
+      span <input type="checkbox" checked="checked"> 
+      span Eu aceito os <a href="#">Termos e Condições</a> e <a href="#">Politicas de Privacidade.</a>

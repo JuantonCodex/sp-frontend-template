@@ -1,0 +1,63 @@
+/*---------------------------------------------------------------------------*
+ * Component: Footer
+----------------------------------------------------------------------------*/
+.l-Footer {
+  &, * {
+    box-sizing: border-box;
+  }
+  padding: 0 15px;
+  margin-bottom: 10px;
+  @include breakpoint(phablet) {
+    padding-left: 38px;
+  }
+
+  &__content {
+    max-width: 782px;
+    position: relative;
+    &:after {
+      content: '';
+      display: block;
+      font-size: 0;
+      clear: both;
+    }
+    @include breakpoint(phablet) {
+      display: table;
+      width: 100%;
+    }
+  }
+  &__cell-3 {
+    text-align: center;
+    margin-bottom: 10px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    @include breakpoint(phablet){
+      display: table-cell;
+      vertical-align: middle;
+      width: 33.3333%;
+      margin-bottom: 0;
+      &:nth-child(1){
+        text-align: left;
+      }
+      &:nth-child(3){
+        text-align: right;
+      }
+    }
+  }
+  &__help {
+    span {
+      color: $color-charcoal-gray;
+      font-size: 13px;
+      &.blue {
+        color: $color-blue-safetypay;
+      }
+      a {
+        color: $color-blue-safetypay;
+        text-decoration: none;
+      }
+    }
+  }
+}
+/*---------------------------------------------------------------------------*
+ * Endof Component: Footer
+----------------------------------------------------------------------------*/
